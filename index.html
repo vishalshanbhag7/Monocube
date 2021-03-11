@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-query.css">
+    <link rel="icon" href="#" type="image">
+    <title>Monocube</title>
+    <style>
+        .hamburger-menu {
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            display: none;
+        }
+
+        .hamburger {
+            width: 30px;
+            height: 3px;
+            background-color: #121212;
+            border-radius: 10%;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="sticky">
+            <div class="heading-div">
+                <a href="#home"><img src="./img/logo.png" alt="Monocube"></a>
+                <ul class="nav-menu">
+
+                    <a href="#about" class="smoothScroll">
+                        <li>About</li>
+                    </a><!-- /.href -->
+
+                    <a href="#portfolio" class="smoothScroll">
+                        <li>Portfolio</li>
+                    </a><!-- /.href -->
+
+                    <a href="#blog" class="smoothScroll">
+                        <li>Blog</li>
+                    </a><!-- /.href -->
+
+                    <a href="#contact" class="smoothScroll">
+                        <li>Contact</li>
+                    </a><!-- /.href -->
+
+                </ul><!-- /.navmenu -->
+
+                <a class="hamburger-menu">
+                    <div class="hamburger"></div><!-- /.hamburger-menu -->
+                    <div class="hamburger"></div><!-- /.hamburger-menu -->
+                    <div class="hamburger"></div><!-- /.hamburger-menu -->
+                </a><!-- /.hamburger -->
+
+            </div>
+        </nav>
+    </header>
+
+    <section class="header-section container"></section>
+
+    <section class="about-me container" id="about">
+        <h2 class="section-heading">About me</h2>
+        <div class="line"></div>
+        <p><span>M</span>orem ipsum dolor sit amet consectetur adipisicing elit. Odit esse culpa voluptatem quo odio
+            impedit sint
+            quasi quis repellat libero vitae, incidunt id dolor! Id, magni incidunt. Tempore nemo vero aliquid atque,
+            earum quas voluptatum, porro, dicta laudantium necessitatibus distinctio eaque. <br><br> Nam fugiat et
+            ratione sunt qui tenetur ipsum ex facere repudiandae totam quis voluptates odit ducimus culpa assumenda
+            earum ea, porro veritatis a in, sed animi! Est doloribus itaque, voluptatum ut pariatur ipsum rem impedit
+            natus atque numquam ex!</p>
+
+        <div class="my-images">
+            <div class="image">
+                <img src="./img/image1.jpg" alt="">
+                <h3>Auctioned Bugatti</h3>
+            </div><!-- /.image -->
+
+            <div class="image">
+                <img src="./img/image2.jpg" alt="">
+                <h3>Rolliflex Camera</h3>
+            </div><!-- /.image -->
+
+            <div class="image">
+                <img src="./img/image3.jpg" alt="">
+                <h3>Vintage Piano</h3>
+            </div><!-- /.image -->
+        </div><!-- /.my-images -->
+    </section>
+
+    <section class="portfolio container" id="portfolio">
+        <h2 class="section-heading">Portfolio</h2>
+        <div class="line"></div>
+        <div class="portfolio-items container">
+            <img src="./img/image4.jpg" alt="image">
+            <img src="./img/image5.jpg" alt="image">
+            <img src="./img/image6.jpg" alt="image">
+            <img src="./img/image7.jpg" alt="image">
+            <img src="./img/image8.jpg" alt="image">
+            <img src="./img/image9.jpg" alt="image">
+
+        </div><!-- /.portfolio-items -->
+    </section>
+
+    <section class="blog container" id="blog">
+        <h2 class="section-heading">My story</h2>
+        <div class="line"></div>
+        <div class="blog-text">
+            <img src="img/image10.jpg" alt="My Fugifilm Camera">
+            <p><span>T</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Illo vitae ullam obcaecati amet
+                saepe esse, quisquam, veritatis nulla, dolor atque dolore fugiat porro inventore. Neque commodi minus
+                vel earum, libero eius blanditiis et a explicabo voluptatum assumenda dolor laudantium enim rerum hic
+                quod provident ea, ratione laboriosam maxime, eaque voluptas.<br><br> Consequatur aliquid aut laboriosam
+                ex dignissimos fuga hic delectus id vel incidunt asperiores vero itaque saepe neque sequi nemo,
+                recusandae odit? Optio quasi velit exercitationem aut voluptate officiis officia sed fugit? A eaque
+                maiores rerum aliquid possimus quasi fugit. Blanditiis quos, aut reiciendis earum commodi eos quae
+                dolorem quisquam veniam deleniti ducimus ab ipsam, natus fuga eaque exercitationem nesciunt non quasi
+                atque eveniet odit nam tenetur expedita! Sint pariatur similique accusamus animi saepe itaque illo.
+                Optio soluta, quibusdam provident magnam pariatur nobis nemo nesciunt rerum id aspernatur, fuga tenetur
+                iusto nisi beatae eveniet autem odio veritatis repellat eum facere harum iste? <br><br>Harum in iure
+                laboriosam possimus quisquam qui rerum aliquam non aliquid corrupti reiciendis veniam cupiditate error
+                fuga doloribus delectus, dicta tempora ipsa sapiente nobis? Officia optio corporis laborum vero
+                repellendus eaque aspernatur rem libero hic accusantium perspiciatis eveniet eius a, nam quas nisi
+                architecto numquam quasi est ipsa nostrum.</p>
+        </div><!-- /.blog-text -->
+    </section><!-- /.blog -->
+
+    <section class="contact container" id="contact">
+        <h2 class="section-heading">Contact</h2>
+        <div class="line"></div>
+        <form action="">
+            <input type="text" name="name" id="name" placeholder="Name">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <textarea name="idMessage" id="message" cols="20" rows="6" placeholder="Message"></textarea><!-- /# -->
+            <input type="submit" value="SUBMIT" class="button">
+        </form>
+    </section><!-- /.contact -->
+
+    <footer>
+        <p>&copy; Monocube 2020</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
